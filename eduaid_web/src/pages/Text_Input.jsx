@@ -89,7 +89,7 @@ const Text_Input = () => {
   };
 
   const decrementQuestions = () => {
-    setNumQuestions((prev) => (prev > 0 ? prev - 1 : 0));
+    setNumQuestions((prev) => (prev > 1 ? prev - 1 : 1));
   };
 
   const getEndpoint = (difficulty, questionType) => {
